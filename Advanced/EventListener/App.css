@@ -1,0 +1,14 @@
+.container {
+  width:190px;
+  height:200px;
+  border : 1px solid black;
+}
+
+.button {
+  padding:2px;
+  border : 1px solid black;
+}
+
+#content{
+  padding:15px;
+}
