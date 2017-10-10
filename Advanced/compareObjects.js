@@ -8,7 +8,7 @@ var obj2 = {a :1, b : 2, c : 3};
 //		}
 //	}
 //}
-//this works.. if you add extra element then also it returns true.. so iterate through both the objects.
+//this works.. but if you add extra element then also it returns true.. so iterate through both the objects.
 
 console.log(compareObjects(obj1, obj2));
 
@@ -30,6 +30,6 @@ function compareObjects(obj1, obj2){
 	}
 	return true;
 }
-
+// this works for single layer objects .. not for nested
 
 //for nested
